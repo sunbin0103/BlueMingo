@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mWhite">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="23dp">
+
+            <GridLayout
+                android:id="@+id/faq_btn_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:columnCount="4"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:orientation="horizontal"></GridLayout>
+
+            <ExpandableListView
+                android:id="@+id/faq_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/faq_btn_layout"></ExpandableListView>
+
+            <LinearLayout
+                android:id="@+id/faq_inform"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/faq_inform_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="44dp"
+                    android:paddingRight="44dp"
+                    android:paddingTop="15dp"
+                    android:text="time inform"
+                    android:textColor="@color/text_card_list"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/faq_inform_call"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="22dp"
+                    android:gravity="center"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="44dp"
+                    android:paddingRight="44dp"
+                    android:paddingTop="15dp"
+                    android:text="time inform call"
+                    android:textColor="@color/text_card_list"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

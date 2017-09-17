@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Test_App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">1483915185015109</string>
+    <string name="kakao_app_key">86241d51df48edb46cfd19ce2bf85a43</string>
+
+</resources>

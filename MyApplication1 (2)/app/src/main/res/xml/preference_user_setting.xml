@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="key_corporation"
+        android:title="Corporation"></Preference>
+
+    <SwitchPreference
+        android:key="key_switch_push_alarm"
+        android:title="App push alram"
+        android:summary="Info"></SwitchPreference>
+
+    <Preference
+        android:key="key_user_data"
+        android:title="User Data">
+    </Preference>
+
+    <Preference
+        android:key="key_logout"
+        android:title="Logout"></Preference>
+
+</PreferenceScreen>

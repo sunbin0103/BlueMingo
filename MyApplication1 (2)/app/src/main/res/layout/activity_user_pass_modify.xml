@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="19dp"
+    android:layout_marginRight="19dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+
+        <TextView
+            android:id="@+id/modify_pass_now"
+            android:text="Now pass"
+            android:textSize="13sp"
+            android:textColor="@color/text_card_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/modify_pass_now_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/modify_pass_new"
+            android:text="New pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textColor="@color/text_card_list" />
+        <EditText
+            android:id="@+id/modify_pass_new_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/modify_pass_check"
+            android:text="New pass check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textColor="@color/text_card_list" />
+        <EditText
+            android:id="@+id/modify_pass_check_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btn_modify_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="modify"
+        android:textSize="12sp"
+        android:textColor="@color/mWhite"
+        android:layout_gravity="center"/>
+</LinearLayout>

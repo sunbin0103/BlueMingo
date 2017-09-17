@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:weightSum="4"
+    android:layout_margin="7dp">
+
+    <TextView
+        android:id="@+id/list_option_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="option_name"
+        android:layout_weight="2"/>
+
+    <TextView
+        android:id="@+id/list_option_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="option_number"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/list_option_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="option_price"/>
+
+</LinearLayout>

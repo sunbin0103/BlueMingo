@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="french_blue">#3e63bc</color>
+    <color name="button_blue">#0a40eb</color>
+    
+    <color name="colorPrimary">#4e7bfa</color> <!-- #3F51B5 -->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="mBlack">#000000</color>
+    <color name="mWhite">#FFFFFFFF</color>
+    <color name="defaultMenuButton">#FF524C4C</color>
+    <color name="clickedMenuButton">#3F51B5</color>
+    <color name="resbarBackground">#FF00FF5D</color>
+    <color name="resbar_prgress">#FFB3B7B4</color>
+
+    <color name="text_card_list">#424242</color>
+    <color name="text_card_list_light">#979797</color>
+    <color name="option_name">#474a4f</color>
+    <color name="trans_price">#ff414a</color>
+    <color name="item_detail_text">#858585</color>
+    <color name="order_title">#515151</color>
+    <color name="line">#cbcbcb</color>
+</resources>

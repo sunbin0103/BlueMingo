@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.top_adv.myapplication1.Login.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+                <!--
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/main_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="attr/actionBarSize"
+                    app:layout_collapseMode="pin"
+                    app:layout_scrollFlags="exitUntilCollapsed"
+                    app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                </android.support.v7.widget.Toolbar>
+                -->
+
+            </android.support.design.widget.AppBarLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="-13.5sp"
+                android:text="blueMingo"
+                android:textColor="@color/french_blue"
+                android:textSize="17.5sp" />
+
+            <EditText
+                android:id="@+id/login_id_input"
+                android:layout_width="match_parent"
+                android:layout_height="37.5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="58.8dp"
+                android:background="@drawable/text_selector"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/login_pass_input"
+                android:layout_width="match_parent"
+                android:layout_height="37.5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="9.5dp"
+                android:background="@drawable/text_selector"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_login_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="42.5dp"
+                    android:layout_gravity="center"
+                    android:background="@color/button_blue"
+                    android:onClick="onButtonClick_login"
+                    android:text="login"
+                    android:textColor="@color/mWhite"
+                    android:textSize="13.5sp" />
+
+                <Button
+                    android:id="@+id/login_user_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="42.5dp"
+                    android:layout_marginTop="9.8dp"
+                    android:background="@color/mWhite"
+                    android:onClick="onButtonClick_login"
+                    android:text="Register"
+                    android:textColor="@color/button_blue"
+                    android:textSize="13.5sp" />
+
+                <Button
+                    android:id="@+id/btn_login_notlogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="9.8dp"
+                    android:background="@color/resbar_prgress"
+                    android:onClick="onButtonClick_login"
+                    android:text="notlogin" />
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/login_auto_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="AutoLogin"
+                    android:textSize="7.5sp" />
+
+                <TextView
+                    android:id="@+id/login_id_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:onClick="onButtonClick_login"
+                    android:text="test"
+                    android:textColor="@color/text_card_list_light"
+                    android:textSize="7.5sp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

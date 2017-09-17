@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/register_complete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_gravity="center"
+        android:text="Complete"
+        android:textSize="12sp"
+        android:textColor="@color/text_card_list_light"/>
+
+    <Button
+        android:id="@+id/btn_register_complete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:text="Go to Login"
+        android:textSize="13.5sp"
+        android:textColor="@color/mWhite"
+        android:background="@color/button_blue"/>
+</LinearLayout>
